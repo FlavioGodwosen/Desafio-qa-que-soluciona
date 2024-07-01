@@ -14,3 +14,22 @@ input("Digite o caminho (ex: 'DDUUDDUDUUUD'): "): Solicita que o usuário digite
 countingValleys(path): Calcula o número de vales percorridos com base na entrada do usuário.
 
 print(f"Número de vales: {resultado}"): Imprime o resultado.
+
+
+Testes executados:
+
+Teste 1:
+Entrada: path = "DDUUDDUDUUUD"
+Saída Esperada: 2
+
+Teste 2:
+Entrada: path = "UDUUUDUDDD"
+Saída Esperada: 0
+
+Teste 3:
+Entrada: path = 'DUDUDUDUDUDUDU" 
+Saída Esperada: 7
+
+Teste 4:
+Entrada: path = 'DDUUUUDDDUUUDDDU" 
+Saída Esperada: 3
