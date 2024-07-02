@@ -20,8 +20,8 @@ def countingValleys(path):
 
     return valleys
 
-# Pedir ao usuário para digitar o caminho
-path = input("Digite o caminho (ex: 'DDUUDDUDUUUD'): ")
-resultado = countingValleys(path)
-print(f"Número de vales: {resultado}")
+print(countingValleys("DDUUDDUDUUUD"))
+print(countingValleys("UDUUUDUDDD"))
+print(countingValleys("DUDUDUDUDUDUDU"))
+print(countingValleys("DDUUUUDDDUUUDDDU"))
 
