@@ -13,3 +13,5 @@ Verificamos se essa diferença é divisível por
 Se for, incrementamos o contador count.
 
 Retornamos o valor de count, que representa o número de dias belos no intervalo.
+
+Nesse tive mais dificuldade e tive que pesquisar e esperar tbm a solução pra ver se tinha acertado.
